@@ -1,3 +1,10 @@
+## Hutang-Q
+Faizal Anandeto Naufal Firdaus
+
+link figma
+(https://www.figma.com/design/YUgGotgS3w8nFsGjO8Gccj/Hutang-q-Bos?node-id=434-3&t=jdtqcP2e3zXt11bV-1)
+
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
