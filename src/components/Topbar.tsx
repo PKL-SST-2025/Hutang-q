@@ -1,3 +1,6 @@
+import setting from "../assets/settings 1.png";
+import profile from "../assets/1326226.jpeg";
+
 // src/components/Topbar.tsx
 type TopbarProps = {
   toggleSidebar: () => void;
@@ -27,10 +30,10 @@ const Topbar = (props: TopbarProps) => {
           class="px-4 py-1 rounded-full border text-sm bg-gray-100 focus:outline-none"
         />
         <button class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-          <img class="h-4" src="/src/assets/settings 1.png" alt="" />
+          <img class="h-4" src={setting} alt="" />
         </button>
         <button class="w-8 h-8 bg-green-100 rounded-full overflow-hidden">
-          <img src="/src/assets/1326226.jpeg" alt="Profile" class="w-full h-full object-cover" />
+          <img src={profile} alt="Profile" class="w-full h-full object-cover" />
         </button>
       </div>
     </div>

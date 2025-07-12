@@ -1,6 +1,8 @@
 import { createSignal, For } from 'solid-js';
 import Sidebar from '../components/Sidebar';
 import Topbar from '../components/Topbar';
+import pencil from '../assets/pencil-alt 1.png';
+import profile from '../assets/1326226.jpeg';
 
 const SettingPage = () => {
   const [sidebarOpen, setSidebarOpen] = createSignal(false);
@@ -30,9 +32,9 @@ const SettingPage = () => {
               <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
                 <div class="md:col-span-3 flex justify-center">
                   <div class="relative">
-                    <img src="/src/assets/1326226.jpeg" class="w-30 h-30 rounded-full object-cover" />
+                    <img src={profile} class="w-30 h-30 rounded-full object-cover" />
                     <button class="absolute top-24 right-2 w-6 h-6 bg-yellow-400 rounded-full text-white flex items-center justify-center text-xs">
-                      <img src="/src/assets/pencil-alt 1.png" alt="" />
+                      <img src={pencil} alt="" />
                     </button>
                   </div>
                 </div>

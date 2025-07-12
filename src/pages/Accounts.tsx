@@ -2,6 +2,9 @@ import { createSignal, For } from 'solid-js';
 import Sidebar from '../components/Sidebar';
 import Topbar from '../components/Topbar';
 import MyCard from '../components/Cards';
+import group from "../assets/Group.png";
+import medical from "../assets/001-medical.png";
+import saving from "../assets/003-saving.png";
 
 const Accounts = () => {
   const [sidebarOpen, setSidebarOpen] = createSignal(false);
@@ -13,9 +16,9 @@ const Accounts = () => {
   };
 
   const summary = [
-    { label: 'Utang', amount: 'Rp.500.000', color: 'text-[#718EBF]', background: 'bg-[#E7EDFF]' , icon: '/src/assets/Group.png' },
-    { label: 'Piutang', amount: 'Rp.10.000', color: 'text-[#FF82AC]', background: 'bg-[#FFE0EB]' , icon: '/src/assets/001-medical.png' },
-    { label: 'Total Utang', amount: 'Rp.155.000', color: 'text-[#16DBCC]', background: 'bg-[#DCFAF8]' , icon: '/src/assets/003-saving.png' }
+    { label: 'Utang', amount: 'Rp.500.000', color: 'text-[#718EBF]', background: 'bg-[#E7EDFF]' , icon: group },
+    { label: 'Piutang', amount: 'Rp.10.000', color: 'text-[#FF82AC]', background: 'bg-[#FFE0EB]' , icon: medical },
+    { label: 'Total Utang', amount: 'Rp.155.000', color: 'text-[#16DBCC]', background: 'bg-[#DCFAF8]' , icon: saving }
   ];
 
   const transactions = [

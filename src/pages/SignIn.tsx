@@ -1,5 +1,6 @@
 import { createSignal } from 'solid-js';
 import { useNavigate } from '@solidjs/router';
+import logo from '../assets/Logo-removebg-preview(1).png';
 
 const SignIn = () => {
   const [email, setEmail] = createSignal('');
@@ -21,7 +22,7 @@ const SignIn = () => {
       <div class="hidden md:flex w-1/2 bg-gradient-to-br from-yellow-300 to-yellow-500 items-center justify-center p-10 text-white">
         <div class="max-w-md">
             <div class='flex gap-2'>
-                <img src="/src/assets/Logo-removebg-preview(1).png" alt="Logo" class="mb-6 w-19" />
+                <img src={logo} alt="Logo" class="mb-6 w-19" />
                 <h1 class='text-4xl font-montserrat font-extrabold text-white pt-4'>Hutang-q</h1>
             </div>
           <h1 class="text-5xl font-montserrat font-extrabold mb-4 text-hitam">No more forgotten debts.</h1>
@@ -32,7 +33,7 @@ const SignIn = () => {
       {/* Sign In Box */}
       <div class="flex flex-col md:flex-row flex-1 p-5 md:p-0 items-center justify-center bg-[#fff9df]">
         <div class='flex md:hidden w-full justify-center pb-5'>
-                <img src="/src/assets/Logo-removebg-preview(1).png" alt="Logo" class="h-14" />
+                <img src={logo} alt="Logo" class="h-14" />
                 <h1 class='text-3xl font-montserrat font-extrabold text-primer2 pt-2'>Hutang-q</h1>
             </div>
         <div class="w-full max-w-sm p-8 bg-[#FFFF8C] rounded-xl">

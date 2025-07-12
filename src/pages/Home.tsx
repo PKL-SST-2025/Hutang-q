@@ -1,4 +1,5 @@
 import { Component } from "solid-js";
+import logo from "../assets/Logo-removebg-preview(1).png";
 
 interface Keuntungan {
     text: string;
@@ -45,7 +46,7 @@ const Home: Component = () => {
     <div>
         <nav class="flex justify-between mt-2">
             <div class="flex ml-2 md:ml-5">
-                <img src="src/assets/Logo-removebg-preview(1).png" alt="" class="h-9"/>
+                <img src={logo} alt="" class="h-9"/>
                 <h1 class="font-montserrat font-extrabold text-primer1 text-xl md:text-2xl">Hutang-q</h1>
             </div>
             <ul class="flex font-montserrat font-extrabold">
