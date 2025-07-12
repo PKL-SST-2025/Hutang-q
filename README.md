@@ -1,8 +1,10 @@
 ## Hutang-Q
 Faizal Anandeto Naufal Firdaus
 
-link figma
+link Figma
 (https://www.figma.com/design/YUgGotgS3w8nFsGjO8Gccj/Hutang-q-Bos?node-id=434-3&t=jdtqcP2e3zXt11bV-1)
+
+link Vercel(https://hutang-q-vercel-bdud.vercel.app/)
 
 
 ## Usage
