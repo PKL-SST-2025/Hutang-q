@@ -112,7 +112,7 @@ const Home: Component = () => {
                             <a href="">About Us</a>
                         </li>
                         <li>
-                            Priacy Policy
+                            Privacy Policy
                         </li>
                         <li>
                             Contact Us
